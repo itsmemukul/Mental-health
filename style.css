@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+  }
+  
+  #moto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #moto h1 {
+    padding: 0;
+    font-size: 62px;
+    max-width: 100px;
+  }
+  
+  #content {
+    display: flex;
+    border-radius: 20px;
+  }
+  
+  #left {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #hello img {
+    height: 500px;
+    width: 300px;
+  }
+  
+  #right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    margin-left: 100px;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
+  }
+  
+  #right h2 {
+    font-size: 26px;
+  }
+  
+  form {
+    width: 52vh;
+  }
+  
+  form label {
+    color: #333333;
+    font-size: 12px;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  input {
+    height: 2.4rem;
+    border: 1px solid #ADADAD;
+    padding: 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  input:hover {
+    border: 1px solid #009688;
+  }
+  
+  #toggle a {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: black;
+  }
+
+  #toggle a:hover {
+    color: #009688;
+  }
+  
+  button {
+    height: 2.8rem;
+    width: 100%;
+    border-radius: 60px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #009688;
+    color: rgb(255, 255, 255);
+  }
+
+  button:hover {
+    background-color: #22A498;
+  }
+  
+  #google_btn {
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 60px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    gap: 20px;
+    box-sizing: border-box;
+  }
+
+  #google_btn:hover {
+    border: 1px solid #009688;
+    background: linear-gradient(0deg, #F8FFFE 0%, #F8FFFE 100%), #FFF;
+  }
